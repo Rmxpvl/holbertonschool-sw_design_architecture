@@ -62,7 +62,7 @@ class CaramelDecorator(Beverage):
 
 
 def main():
-    beverage = MilkDecorator(Coffee())
+    beverage = MilkDecorator(SugarDecorator(Coffee()))
     print(beverage.description(), beverage.cost())
 
     beverage = CaramelDecorator(MilkDecorator(SugarDecorator(Coffee())))
