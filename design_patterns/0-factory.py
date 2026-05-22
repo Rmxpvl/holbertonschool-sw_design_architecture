@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """Factory registry example
 
 Implements a simple VehicleFactory that maps string keys to classes so
